@@ -5,6 +5,9 @@ from sqlalchemy import pool
 
 from alembic import context
 
+from app.models.user import User
+from app.models.lead import Lead
+
 import os
 import sys
 
